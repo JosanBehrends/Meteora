@@ -9,9 +9,9 @@ import { useLocation } from "react-router-dom";
 import { useCarrinhoContext } from "../../hooks/useCarrinhoContext";
 
 const BarraNavegacao = () => {
-  const {quantidade} = useCarrinhoContext();
   const location = useLocation();
   const ehAPaginaCarrinho = location.pathname === "/carrinho";
+  const { quantidade } = useCarrinhoContext();
   return (
     <header>
       <nav className="navbar navbar-expand-md bg-black navbar-dark">

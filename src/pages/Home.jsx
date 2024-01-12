@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <BarraNavegacao />
-      <CarrinhoSuspenso/>
+      <CarrinhoSuspenso />
       <main>
         <Carrossel />
         <Categorias />
